@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Filipino (fil)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Filipino (fil)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 94f8043866a0cd941abd6ee1aac4806b
+  m_SerializeEntries:
+  - m_GUID: 2d6e07cdb79f0804991d3d290f42946e
+    m_Address: Localized Text_fil
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fil
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: bf32ff15dae8fa34da5fc79410fb2b3b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cbf8086aec3ada14fb118e01382cd414, type: 2}
+    - {fileID: 11400000, guid: 4a3627d5f2b969c4b93cbfa8760b202d, type: 2}

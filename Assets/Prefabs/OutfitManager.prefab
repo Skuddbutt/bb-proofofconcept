@@ -1,0 +1,437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5119730258617299972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009052674470212644}
+  - component: {fileID: 283910860669087938}
+  - component: {fileID: 4729812590803482169}
+  - component: {fileID: 7480451162464457449}
+  m_Layer: 0
+  m_Name: OutfitManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009052674470212644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119730258617299972}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &283910860669087938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119730258617299972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d597fffb89d6a93438a86f4697c7274c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outfits:
+  - outfitName: PJs
+    objectsToToggle:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    materialsToApply:
+    - {fileID: 2100000, guid: 37ea72003f0cd81458c42c914567f989, type: 2}
+    - {fileID: 2100000, guid: 664bdc96778c6dc4485fa338503a5c9d, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    visibilityStates: 01010000000000000000000000
+    isLocked: 0
+  - outfitName: Magnasaur
+    objectsToToggle:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    materialsToApply:
+    - {fileID: 2100000, guid: 92c25a4a6d6487a48a0e4a99b0b62b0e, type: 2}
+    - {fileID: 0}
+    - {fileID: 2100000, guid: 92c25a4a6d6487a48a0e4a99b0b62b0e, type: 2}
+    - {fileID: 2100000, guid: 92c25a4a6d6487a48a0e4a99b0b62b0e, type: 2}
+    - {fileID: 2100000, guid: 92c25a4a6d6487a48a0e4a99b0b62b0e, type: 2}
+    - {fileID: 2100000, guid: 92c25a4a6d6487a48a0e4a99b0b62b0e, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    visibilityStates: 01000101010100000000000000
+    isLocked: 0
+  - outfitName: Zunleth
+    objectsToToggle:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    materialsToApply:
+    - {fileID: 2100000, guid: bb8741178e2ee8242a30106adb3bdba0, type: 2}
+    - {fileID: 0}
+    - {fileID: 2100000, guid: bb8741178e2ee8242a30106adb3bdba0, type: 2}
+    - {fileID: 2100000, guid: bb8741178e2ee8242a30106adb3bdba0, type: 2}
+    - {fileID: 2100000, guid: bb8741178e2ee8242a30106adb3bdba0, type: 2}
+    - {fileID: 2100000, guid: bb8741178e2ee8242a30106adb3bdba0, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    visibilityStates: 01000101010100000000000000
+    isLocked: 0
+  - outfitName: Work
+    objectsToToggle:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    materialsToApply:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 0}
+    visibilityStates: 00000000000001010101010100
+    isLocked: 0
+  - outfitName: Karate
+    objectsToToggle:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    materialsToApply:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 2100000, guid: bb8741178e2ee8242a30106adb3bdba0, type: 2}
+    visibilityStates: 00000000000000000000010101
+    isLocked: 0
+  - outfitName: Finals
+    objectsToToggle:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    materialsToApply:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    - {fileID: 2100000, guid: 37ea72003f0cd81458c42c914567f989, type: 2}
+    visibilityStates: 00000000000000000000010101
+    isLocked: 0
+  accessories:
+  - objectToToggle: {fileID: 0}
+    accessoryMaterial: {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    isLocked: 0
+  - objectToToggle: {fileID: 0}
+    accessoryMaterial: {fileID: 2100000, guid: 0b00fc88d5805af4ebd159697d7db8e5, type: 2}
+    isLocked: 0
+  - objectToToggle: {fileID: 0}
+    accessoryMaterial: {fileID: 2100000, guid: 92c25a4a6d6487a48a0e4a99b0b62b0e, type: 2}
+    isLocked: 0
+--- !u!114 &4729812590803482169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119730258617299972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc2d89f9bfc01e64097f922f8dbb4f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyMeshRenderer: {fileID: 0}
+  blendShapeNameWaist: body_blends.thin_waist1
+  blendShapeNameTorso: body_blends.thin_torso1
+  outfitBlendShapes:
+  - outfitName: PJs
+    blendShapeValueWaist: 0
+    blendShapeValueTorso: 0
+    isLocked: 0
+  - outfitName: Magnasaur
+    blendShapeValueWaist: 100
+    blendShapeValueTorso: 0
+    isLocked: 0
+  - outfitName: Zunleth
+    blendShapeValueWaist: 100
+    blendShapeValueTorso: 0
+    isLocked: 0
+  - outfitName: Work
+    blendShapeValueWaist: 0
+    blendShapeValueTorso: 100
+    isLocked: 0
+  - outfitName: Karate
+    blendShapeValueWaist: 100
+    blendShapeValueTorso: 0
+    isLocked: 0
+  - outfitName: Finals
+    blendShapeValueWaist: 100
+    blendShapeValueTorso: 0
+    isLocked: 1
+--- !u!114 &7480451162464457449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119730258617299972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bed41161df7c93469b829f4f47733d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outfitButtons:
+  - outfitName: PJs
+    outfitButton: {fileID: 0}
+    outfitIcon: {fileID: 0}
+    lockIcon: {fileID: 0}
+    isUnlocked: 1
+    unlockedNormal: {fileID: 21300000, guid: c5574be59d413654c8fa1038b3291270, type: 3}
+    unlockedHighlighted: {fileID: 21300000, guid: 30de6c4adc63dbe469f52c30e5a29dad, type: 3}
+    unlockedPressed: {fileID: 21300000, guid: e027f6b46ea3a4542b8b83178df8e421, type: 3}
+    unlockedSelected: {fileID: 21300000, guid: ef6d37a1ebe00cd4c8ba60e7bc22d7b6, type: 3}
+    unlockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedNormal: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedHighlighted: {fileID: 21300000, guid: c492af779c4376c4fa5194f2600bca4a, type: 3}
+    lockedPressed: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedSelected: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+  - outfitName: Magnasaur
+    outfitButton: {fileID: 0}
+    outfitIcon: {fileID: 0}
+    lockIcon: {fileID: 0}
+    isUnlocked: 1
+    unlockedNormal: {fileID: 21300000, guid: c5574be59d413654c8fa1038b3291270, type: 3}
+    unlockedHighlighted: {fileID: 21300000, guid: 30de6c4adc63dbe469f52c30e5a29dad, type: 3}
+    unlockedPressed: {fileID: 21300000, guid: e027f6b46ea3a4542b8b83178df8e421, type: 3}
+    unlockedSelected: {fileID: 21300000, guid: ef6d37a1ebe00cd4c8ba60e7bc22d7b6, type: 3}
+    unlockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedNormal: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedHighlighted: {fileID: 21300000, guid: c492af779c4376c4fa5194f2600bca4a, type: 3}
+    lockedPressed: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedSelected: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+  - outfitName: Zunleth
+    outfitButton: {fileID: 0}
+    outfitIcon: {fileID: 0}
+    lockIcon: {fileID: 0}
+    isUnlocked: 1
+    unlockedNormal: {fileID: 21300000, guid: c5574be59d413654c8fa1038b3291270, type: 3}
+    unlockedHighlighted: {fileID: 21300000, guid: 30de6c4adc63dbe469f52c30e5a29dad, type: 3}
+    unlockedPressed: {fileID: 21300000, guid: e027f6b46ea3a4542b8b83178df8e421, type: 3}
+    unlockedSelected: {fileID: 21300000, guid: ef6d37a1ebe00cd4c8ba60e7bc22d7b6, type: 3}
+    unlockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedNormal: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedHighlighted: {fileID: 21300000, guid: c492af779c4376c4fa5194f2600bca4a, type: 3}
+    lockedPressed: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedSelected: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+  - outfitName: Work
+    outfitButton: {fileID: 0}
+    outfitIcon: {fileID: 0}
+    lockIcon: {fileID: 0}
+    isUnlocked: 1
+    unlockedNormal: {fileID: 21300000, guid: c5574be59d413654c8fa1038b3291270, type: 3}
+    unlockedHighlighted: {fileID: 21300000, guid: 30de6c4adc63dbe469f52c30e5a29dad, type: 3}
+    unlockedPressed: {fileID: 21300000, guid: e027f6b46ea3a4542b8b83178df8e421, type: 3}
+    unlockedSelected: {fileID: 21300000, guid: ef6d37a1ebe00cd4c8ba60e7bc22d7b6, type: 3}
+    unlockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedNormal: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedHighlighted: {fileID: 21300000, guid: c492af779c4376c4fa5194f2600bca4a, type: 3}
+    lockedPressed: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedSelected: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+  - outfitName: Karate
+    outfitButton: {fileID: 0}
+    outfitIcon: {fileID: 0}
+    lockIcon: {fileID: 0}
+    isUnlocked: 1
+    unlockedNormal: {fileID: 21300000, guid: c5574be59d413654c8fa1038b3291270, type: 3}
+    unlockedHighlighted: {fileID: 21300000, guid: 30de6c4adc63dbe469f52c30e5a29dad, type: 3}
+    unlockedPressed: {fileID: 21300000, guid: e027f6b46ea3a4542b8b83178df8e421, type: 3}
+    unlockedSelected: {fileID: 21300000, guid: ef6d37a1ebe00cd4c8ba60e7bc22d7b6, type: 3}
+    unlockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedNormal: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedHighlighted: {fileID: 21300000, guid: c492af779c4376c4fa5194f2600bca4a, type: 3}
+    lockedPressed: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedSelected: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+  - outfitName: Finals
+    outfitButton: {fileID: 0}
+    outfitIcon: {fileID: 0}
+    lockIcon: {fileID: 0}
+    isUnlocked: 0
+    unlockedNormal: {fileID: 21300000, guid: c5574be59d413654c8fa1038b3291270, type: 3}
+    unlockedHighlighted: {fileID: 21300000, guid: 30de6c4adc63dbe469f52c30e5a29dad, type: 3}
+    unlockedPressed: {fileID: 21300000, guid: e027f6b46ea3a4542b8b83178df8e421, type: 3}
+    unlockedSelected: {fileID: 21300000, guid: ef6d37a1ebe00cd4c8ba60e7bc22d7b6, type: 3}
+    unlockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedNormal: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedHighlighted: {fileID: 21300000, guid: c492af779c4376c4fa5194f2600bca4a, type: 3}
+    lockedPressed: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedSelected: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+  accessoryToggles:
+  - accessoryName: Gloves
+    accessoryToggle: {fileID: 0}
+    accessoryIcon: {fileID: 0}
+    buttonBackground: {fileID: 0}
+    lockIcon: {fileID: 0}
+    isUnlocked: 1
+    unlockedNormal: {fileID: 21300000, guid: c5574be59d413654c8fa1038b3291270, type: 3}
+    unlockedHighlighted: {fileID: 21300000, guid: 30de6c4adc63dbe469f52c30e5a29dad, type: 3}
+    unlockedPressed: {fileID: 21300000, guid: e027f6b46ea3a4542b8b83178df8e421, type: 3}
+    unlockedSelected: {fileID: 21300000, guid: ef6d37a1ebe00cd4c8ba60e7bc22d7b6, type: 3}
+    unlockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedNormal: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedHighlighted: {fileID: 21300000, guid: c492af779c4376c4fa5194f2600bca4a, type: 3}
+    lockedPressed: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedSelected: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+  - accessoryName: Shoes
+    accessoryToggle: {fileID: 0}
+    accessoryIcon: {fileID: 0}
+    buttonBackground: {fileID: 0}
+    lockIcon: {fileID: 0}
+    isUnlocked: 1
+    unlockedNormal: {fileID: 21300000, guid: c5574be59d413654c8fa1038b3291270, type: 3}
+    unlockedHighlighted: {fileID: 21300000, guid: 30de6c4adc63dbe469f52c30e5a29dad, type: 3}
+    unlockedPressed: {fileID: 21300000, guid: e027f6b46ea3a4542b8b83178df8e421, type: 3}
+    unlockedSelected: {fileID: 21300000, guid: ef6d37a1ebe00cd4c8ba60e7bc22d7b6, type: 3}
+    unlockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedNormal: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedHighlighted: {fileID: 21300000, guid: c492af779c4376c4fa5194f2600bca4a, type: 3}
+    lockedPressed: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedSelected: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+  - accessoryName: Strengthband
+    accessoryToggle: {fileID: 0}
+    accessoryIcon: {fileID: 0}
+    buttonBackground: {fileID: 0}
+    lockIcon: {fileID: 0}
+    isUnlocked: 1
+    unlockedNormal: {fileID: 21300000, guid: c5574be59d413654c8fa1038b3291270, type: 3}
+    unlockedHighlighted: {fileID: 21300000, guid: 30de6c4adc63dbe469f52c30e5a29dad, type: 3}
+    unlockedPressed: {fileID: 21300000, guid: e027f6b46ea3a4542b8b83178df8e421, type: 3}
+    unlockedSelected: {fileID: 21300000, guid: ef6d37a1ebe00cd4c8ba60e7bc22d7b6, type: 3}
+    unlockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedNormal: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedHighlighted: {fileID: 21300000, guid: c492af779c4376c4fa5194f2600bca4a, type: 3}
+    lockedPressed: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedSelected: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
+    lockedDisabled: {fileID: 21300000, guid: 42de67958704af647a0edb30028cc740, type: 3}
